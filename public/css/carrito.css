@@ -56,7 +56,7 @@ div.carrito-total{
 .vistas-de-productos{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
 }
 h2.shopping-title{
     width: 100%;
