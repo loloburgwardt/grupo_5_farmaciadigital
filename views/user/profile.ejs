@@ -57,7 +57,7 @@
         <div class="contenedor-parcial-profile">
             <h2 style=" color:#55C24B">Direcciones</h2>
             <% if (user.addresses.length == 0) { %>
-            <p>No tiene direcciones registradas...</p>
+            <p class='no-addresses'>No tiene direcciones registradas...</p>
             <% }else{ %>
             <% user.addresses.forEach(address => { %>
             <div class="datosDirecciones">
