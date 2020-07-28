@@ -204,8 +204,8 @@ footer form{
 }
 
 div.footer-right form button{
-    width: 100px;  
-    height: 20px;
+    width: 100%;  
+    height: auto;
 }
 footer div.social-icons{
     padding-top: 27px;

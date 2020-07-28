@@ -9,7 +9,7 @@ function contadorMiddleware(req,res,next){
             }
         })
         .then(cart=>{
-            res.locals.contador=cart
+            res.locals.contador=cart.length
             return next()
         })
     }else{
